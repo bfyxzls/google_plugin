@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "lind-kc",
+  "version": "1.0.1",
+  "description": "lind-kc-pid",
+  "author": "lind",
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "cookies",
+    "system.cpu",
+    "system.memory",
+    "system.storage",
+    "system.display"
+  ],
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_title": "点击登录系统"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "web_accessible_resources": [
+    "popup.html",
+    "popup.js"
+  ]
+}
