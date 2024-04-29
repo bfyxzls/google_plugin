@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Extension</title>
+    <meta charset="UTF-8">
+    <title>设置注册</title>
 </head>
 <body>
-    <button id="loginButton" style="background-color: red">Login</button>
-    <script src="popup.js"></script>
+<div id="realm"></div>
+<div id="public_key"></div>
+<div id="reg-form">
+<label>请输入PID:<input type="text" id="pid" placeholder="请输入集团PID编码"/></label>
+<button id="loginButton" style="background-color: #ff0">注册设备</button>
+</div>
+<script src="jquery-2.2.4.min.js"></script>
+<script src="popup.js"></script>
 </body>
 </html>
